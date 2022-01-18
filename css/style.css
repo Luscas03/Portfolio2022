@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media (min-width: 1900px)
+{
+.body{
+max-width: 60%;
+max-height: 60%;
+}
+   
+}
 *{
     font-family: 'Raleway', sans-serif;
 }
@@ -6,9 +14,11 @@
     width: 100%;;
     height: 750px;
     background-image: url('../img/fundo.jpeg');
-    color: rgb(255, 255, 255);
+    color: #ffffff;
+  
 }
-.col img {
+
+#perfil img {
 
 border-radius: 50%;
 
@@ -31,9 +41,11 @@ border-radius: 50%;
 
 #lucas{
     display: flex;
-    font-size: 10vw;
+    font-size: 10vh;
     font-weight: bold;
     justify-content: center;
+ 
+  
 
 
 }
@@ -72,4 +84,53 @@ justify-content: flex-end;
 .more a:hover {
     text-decoration: none;
     color: white;
+}
+.sobre img {
+
+    margin-top: 100px;
+}
+#sobre{
+    font-weight: bold;
+    font-size: 30px;
+   
+   
+}
+#linhae{
+    border-left: 10px solid black;
+    margin-top: 100px;
+    height: fit-content;
+}
+#onde{
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+   
+   
+}
+#linhad{
+    border-right: 10px solid black;
+    margin-top: 100px;
+    height: fit-content;
+  
+
+}
+.enco {
+    margin-top: 150px;
+}
+.square {
+    width: 50px;
+    height: 50px;
+
+    margin: 7px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes {
+    display: flex;
+    justify-content: flex-end;
 }
