@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.princ {
+    width: 100%;;
+    height: 750px;
+    background-image: url('../img/fundo.jpeg');
+    color: rgb(255, 255, 255);
+}
+.col img {
+
+border-radius: 50%;
+
+}
+
+.html{
+    margin-top: 23px;
+}
+#skills{
+    margin-top: 100px;
+
+}
+#perfil {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+   
+  
+}
+
+#lucas{
+    display: flex;
+    font-size: 10vw;
+    font-weight: bold;
+    justify-content: center;
+
+
+}
+
+#dev{
+    display: flex;
+    font-size: 2rem;
+
+    font-weight: bold;
+    justify-content: flex-end;
+    margin-right: 10%;
+
+
+}
+.saiba{
+    background-color: #282828;
+}
+.more {
+width: 100%;
+height: 200px;
+
+color: white;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
+}
+.more svg {
+
+ margin-left: 5px;
+}
+.more a {
+    text-decoration: none;
+    color: white;
+}
+.more a:hover {
+    text-decoration: none;
+    color: white;
+}
