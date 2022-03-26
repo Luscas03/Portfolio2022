@@ -134,3 +134,56 @@ justify-content: flex-end;
     display: flex;
     justify-content: flex-end;
 }
+#carreira{
+    font-weight: bold;
+    font-size: 30px;
+   
+   
+}
+.carreira {
+    margin-bottom: 200px;
+    margin-top: 150px;
+}
+.footer {
+    height: 50px;
+    background-color: #17171744;
+    color: #000000;
+    
+
+}
+
+.copy{
+    display: flex;
+    font-weight: bold;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: medium;
+  
+}
+
+.subir {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+    transform: translate(0px, -50px);
+  
+
+   
+
+}
+.subir svg {
+    background-color: transparent;
+    
+  
+}
+
+.subir a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.subir a:hover{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    transition: 1s;
+}
